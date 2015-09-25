@@ -1,5 +1,5 @@
 {
-    "name": "sp/fixture-dumper-bundle",
+    "name": "xijia37/fixture-dumper-bundle",
     "type": "symfony-bundle",
     "description": "Integration of the sp/fixture-dumper library with Symfony2",
     "keywords": ["fixture-dumper", "dump", "fixtures"],
@@ -19,7 +19,7 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "^2.1",
-        "sp/fixture-dumper": ">=1.0,<1.1-dev"
+        "xijia37/fixture-dumper": ">=1.0,<1.1-dev"
     },
     "config": {
         "bin-dir": "bin"
@@ -32,5 +32,11 @@
         "branch-alias": {
             "dev-master": "1.1-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/xijia37/fixture-dumper"
+        }
+    ],
 }
